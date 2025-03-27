@@ -1149,6 +1149,17 @@
 	vccio7-supply = <&vcc_1v8>;
 };
 
+&spi0 {
+    status = "okay";
+
+    spidev@0 {
+        compatible = "spidev";
+        reg = <0>; // This is CS0
+        spi-max-frequency = <2400000>; // WS2812 needs ~2.4MHz or less
+        status = "okay";
+    };
+};
+
 &pwm0 {
 	status = "okay";
 	pinctrl-names = "active";
