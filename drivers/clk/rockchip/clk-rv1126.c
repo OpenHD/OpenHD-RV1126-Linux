@@ -127,12 +127,6 @@ static struct rockchip_cpuclk_rate_table rv1126_cpuclk_rates[] __initdata = {
 	RV1126_CPUCLK_RATE(1008000000, 1, 5),
 	RV1126_CPUCLK_RATE(912000000, 1, 5),
 	RV1126_CPUCLK_RATE(816000000, 1, 3),
-	RV1126_CPUCLK_RATE(696000000, 1, 3),
-	RV1126_CPUCLK_RATE(600000000, 1, 3),
-	RV1126_CPUCLK_RATE(408000000, 1, 1),
-	RV1126_CPUCLK_RATE(312000000, 1, 1),
-	RV1126_CPUCLK_RATE(216000000,  1, 1),
-	RV1126_CPUCLK_RATE(96000000, 1, 1),
 };
 
 static const struct rockchip_cpuclk_reg_data rv1126_cpuclk_data = {
